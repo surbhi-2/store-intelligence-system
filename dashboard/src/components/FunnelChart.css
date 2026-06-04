@@ -1,0 +1,36 @@
+.funnel-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.funnel-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.stage-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  padding: 12px;
+  background: #f7fafc;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.stage-label {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.stage-count {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.stage-dropoff {
+  color: #f6ad55;
+  font-weight: 600;
+}

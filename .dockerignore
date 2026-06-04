@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+.env
+*.db
+data/
+clips/
+*.mp4
+*.avi
+*.jsonl
+.git
+tests/
+docs/
+pipeline/

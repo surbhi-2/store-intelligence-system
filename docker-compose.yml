@@ -1,0 +1,14 @@
+
+
+services:
+  api:
+    build: .
+    container_name: store_api
+    ports:
+      - "8000:8000"
+    environment:
+      ENVIRONMENT: development
+    volumes:
+      - ./app:/app/app
+      - ./data:/app/data
+    restart: on-failure

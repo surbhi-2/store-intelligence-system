@@ -1,0 +1,76 @@
+.anomalies-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.anomalies-empty {
+  background: #f0fff4;
+  border: 2px solid #9ae6b4;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+  color: #22543d;
+  font-weight: 600;
+}
+
+.anomaly-item {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  border-left: 4px solid;
+  background: white;
+  transition: all 0.2s;
+}
+
+.anomaly-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateX(4px);
+}
+
+.severity-critical {
+  border-left-color: #fc8181;
+  background: #fff5f5;
+}
+
+.severity-warn {
+  border-left-color: #fbd38d;
+  background: #fffff0;
+}
+
+.severity-info {
+  border-left-color: #63b3ed;
+  background: #ebf8ff;
+}
+
+.anomaly-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.anomaly-content {
+  flex: 1;
+}
+
+.anomaly-type {
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 4px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.anomaly-message {
+  color: #4a5568;
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.anomaly-action {
+  color: #718096;
+  font-size: 13px;
+  font-style: italic;
+}
